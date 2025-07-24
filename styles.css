@@ -1,0 +1,74 @@
+.top-header {
+    margin: 0;
+    color: #FFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 90vw;
+}
+
+.leftBar {
+    background-color: #0353a0;
+    padding: 12px;
+    padding-left: 60vw;
+    display: inline-block;
+}
+
+.rightBar{
+    display: inline-block;
+}
+
+.careerButton {
+    background-color: #FCB227;
+    padding: 12px;
+    clip-path: polygon(15%,0%,100%,0%,85%,100%,0%,100%);
+    position: relative;
+    display: inline-block;
+}
+
+.careerButton:hover {
+    background-color: #0353a0;
+}
+
+.contactButton {
+    background-color: #FCB227;
+    padding: 12px;
+    clip-path: polygon(15%,0%,100%,0%,85%,100%,0%,100%);
+    position: relative;
+    display: inline-block;
+}
+
+.contactButton:hover {
+    background-color: #0353a0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.bottomHeader{
+    width: 90vw;
+    height: 110px;
+    position: absolute;
+}
+
+.companyLogo {
+    display: inline-block;
+    padding: 20px;
+}
+
+.navigationMenu {
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+}
+
+.navigationButton {
+    color: black;
+    font-size: 18px;
+    margin: 0;
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    position: relative;
+    top: 32px;
+}
